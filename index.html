@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerenciador de Hábitos em | Java</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f1f1f1;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.55);
+      padding: 40px;
+      border-radius: 16px;
+      max-width: 700px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+
+    .tags {
+      margin: 20px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #1abc9c;
+      color: #000;
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      background: #3498db;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      margin-right: 10px;
+      transition: 0.2s;
+      display: inline-block;
+    }
+
+    .buttons a:hover {
+      background: #2980b9;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciador de Hábitos</h1>
+
+    <p>
+      Projeto desenvolvido em <strong>Java</strong> com foco em organização,
+      arquitetura limpa e persistência de dados utilizando <strong>SQLite</strong>.
+      O sistema funciona via <strong>linha de comando (CLI)</strong> e permite
+      registro e login de usuários, servindo como base para futuras expansões.
+    </p>
+
+    <div class="tags">
+      <span class="tag">Java</span>
+      <span class="tag">SQLite</span>
+      <span class="tag">JDBC</span>
+      <span class="tag">CLI</span>
+      <span class="tag">POO</span>
+    </div>
+
+    <p>
+       <strong>Login persistente</strong> com banco de dados<br />
+      Código modular e organizado<br />
+      Projeto pronto para evoluir!
+    </p>
+
+    <div class="buttons">
+      <a href="https://github.com/leo7program/gerencihabitos" target="_blank">Ver Código no GitHub</a>
+    </div>
+
+    <footer>
+      Desenvolvido por Leo7program • Java Project
+    </footer>
+  </div>
+</body>
+</html>
